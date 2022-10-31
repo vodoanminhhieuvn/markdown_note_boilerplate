@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "310714156899",
+    "project_id": "markdown-note-26a66",
+    "storage_bucket": "markdown-note-26a66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310714156899:android:62e35ca1f5c6bbb378f556",
+        "android_client_info": {
+          "package_name": "com.markdown.org.markdown_note_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310714156899-ifipp4ig7moton0i3ufd5e00a41vkh55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFVAFt7hU_LdjgrauUfTYyTKud-ZW-lyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310714156899-ifipp4ig7moton0i3ufd5e00a41vkh55.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "310714156899-jachp59toakf7rdpeigbhmov8lofiuag.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wander.markdown"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310714156899:android:1647774545544d1f78f556",
+        "android_client_info": {
+          "package_name": "com.wander.markdown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310714156899-ifipp4ig7moton0i3ufd5e00a41vkh55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFVAFt7hU_LdjgrauUfTYyTKud-ZW-lyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310714156899-ifipp4ig7moton0i3ufd5e00a41vkh55.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "310714156899-jachp59toakf7rdpeigbhmov8lofiuag.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wander.markdown"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
