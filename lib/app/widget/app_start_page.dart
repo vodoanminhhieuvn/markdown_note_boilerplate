@@ -14,14 +14,13 @@ class AppStartPage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final state = ref.watch(appStartProvider);
 
-    return state.maybeWhen(
+    return state.when(
       initial: () => const LoadingWidget(),
       authenticated: (userInfo) => HomePage(
         userInfo: userInfo,
       ),
       unauthenticated: SignInPage.new,
       internetUnAvailable: () => const ConnectionUnavailableWidget(),
-      orElse: () => const LoadingWidget(),
     );
   }
 }
