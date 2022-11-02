@@ -1,3 +1,4 @@
+@authToken = {{login.response.body.token}}
 // The request body is provided in place
 //? Sign up request
 # @name login
@@ -12,8 +13,6 @@ Cookie: key=first-value
 }
 
 ###
-@authToken = {{login.response.body.token}}
-
 //? Sign in request
 # @name register
 POST {{base_url}}/auth/signin HTTP/1.1
@@ -25,7 +24,5 @@ Cookie: key=first-value
   "password": "jb123"
 }
 
-###
-@authToken = {{register.response.body.token}}
 
 
